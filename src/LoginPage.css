@@ -1,0 +1,35 @@
+.main {
+    border: 2px solid black;
+    width: 500px;
+}
+
+.main h1 {
+    font-size: 3rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin:100px;
+    height: 300px;
+}
+
+#password-input {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.submit-btn {
+    width: 30%;
+    height: 1.5rem;
+}
+
+.empty {
+    display: none;
+}
+
+.wrong-passwd {
+    color: red;
+}
