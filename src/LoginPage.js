@@ -44,7 +44,15 @@ class LoginPage extends React.Component {
         <form action="#"
           onSubmit={this.authorize}>
           <h1>Enter a password</h1>
-          <input id="password-input" name="password-input" type="password" placeholder="Password"/>
+          <input 
+            id="password-input"
+            name="password-input"
+            type="password"
+            placeholder="Password"
+            required
+            minLength="8"
+            maxLength="24"
+            />
           <input className="submit-btn" type="submit" value="Submit"/>
           {this.state.alert ? warning : emptyDiv}
         </form>
