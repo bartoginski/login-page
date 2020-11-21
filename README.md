@@ -1,7 +1,8 @@
 # Login Page App
 
-This is my first React's project. It works and it's simple
-password to page is: `plywak123`
+This is my first React's project. It works and it's simple.
+
+Password to page is: `plywak123`
 
 
 # Create-React-App content 
